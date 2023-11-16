@@ -21,19 +21,19 @@ ScrollReveal().reveal(".hero-textbox h1, .hero-textbox p", {
 	distance: "1200px",
 });
 
-ScrollReveal().reveal(".about-textbox, .about, .service, .why", {
+ScrollReveal().reveal(".about-textbox, .about, .why", {
+	delay: 110,
+	origin: "bottom",
+	interval: 500,
+	duration: 1500,
+});
+
+ScrollReveal().reveal(".service", {
 	delay: 110,
 	origin: "bottom",
 	interval: 500,
 	duration: 1500,
 	distance: "200px",
-});
-
-ScrollReveal().reveal(".why", {
-	delay: 110,
-	origin: "bottom",
-	interval: 500,
-	duration: 1500,
 });
 ScrollReveal().reveal(".other, .own", {
 	delay: 110,
