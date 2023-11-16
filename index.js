@@ -29,6 +29,12 @@ ScrollReveal().reveal(".about-textbox, .about, .service, .why", {
 	distance: "200px",
 });
 
+ScrollReveal().reveal(".why", {
+	delay: 110,
+	origin: "bottom",
+	interval: 500,
+	duration: 1500,
+});
 ScrollReveal().reveal(".other, .own", {
 	delay: 110,
 	origin: "right",
